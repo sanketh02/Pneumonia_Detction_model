@@ -6,13 +6,17 @@ This project is a Deep Learning-based web application that detects Pneumonia fro
 The model analyzes uploaded X-ray images and predicts whether the patient is:
 
 ✅ Normal
+
 ⚠ Pneumonia
 
 1. The application is built using:
 
 1.1 TensorFlow / Keras
+
 1.2 OpenCV
+
 1.3 NumPy
+
 1.4 Streamlit (for web interface)
 
 2. Problem Statement
@@ -23,8 +27,13 @@ This project aims to assist in automated medical image classification using deep
 3. Model Architecture =>
 
 The CNN model consists of:
+
 Multiple Convolutional Layers
+
 Max Pooling Layers
+
 Flatten Layer
+
 Fully Connected Dense Layers
+
 Softmax / Sigmoid Output Layer
