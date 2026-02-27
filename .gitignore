@@ -1,0 +1,47 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Model Files (Large Files)
+model/*.h5
+model/*.keras
+*.h5
+*.keras
+
+# Dataset
+dataset/
+data/
+*.csv
+*.zip 
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
